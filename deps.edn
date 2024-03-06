@@ -22,13 +22,13 @@
                                                           :sha "cb96e80f6f3d3b307c59cbeb49bb0dcb3a2a780b"}}
                   :main-opts ["-m" "cognitect.test-runner"]}
            :uberjar {:extra-deps {luchiniatwork/cambada {:git/url "https://github.com/luchiniatwork/cambada.git"
-                                                         :sha "c8a01477c856fc28c53f34aa3f268f8eaf683869"}}
+                                                         :sha "99654689f8b6656c615543b3ed47d9b3a3c5773f"}}
                      :main-opts ["-m" "cambada.uberjar"
                                  "-m" "mp3_parser.cli"
                                  "--app-artifact-id" "mp3-parser"
                                  "--app-version" "SNAPSHOT"]}
            :native-image {:extra-deps {luchiniatwork/cambada {:git/url "https://github.com/luchiniatwork/cambada.git"
-                                                              :sha "c8a01477c856fc28c53f34aa3f268f8eaf683869"}}
+                                                              :sha "99654689f8b6656c615543b3ed47d9b3a3c5773f"}}
                           :main-opts ["-m" "cambada.native-image"
                                       "-m" "mp3_parser.cli"
                                       "--graalvm-opt"
