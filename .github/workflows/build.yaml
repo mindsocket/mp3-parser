@@ -57,8 +57,7 @@ jobs:
           graalvm-version: "20.2.0.java11"
       - name: "Install GraalVM Native Image Deps"
         run: |
-          #sudo apt -y update
-          sudo apt -y install gcc libc6-dev zlib1g-dev libstdc++-dev
+          sudo apt-get install build-essential libz-dev zlib1g-dev
       - name: "Install GraalVM Native Image"
         run: gu install native-image
       - name: "Download"
